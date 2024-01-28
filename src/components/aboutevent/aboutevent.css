@@ -34,9 +34,9 @@
 }
 
 .eventPara {
-  padding: 0;
+  padding: 20px;
   margin: 0;
-  font-size: 14px;
+  font-size: 18px;
   color: white;
 }
 
@@ -129,6 +129,7 @@
   height: 275px;
   object-fit: contain;
   border-radius: 10px;
+  padding-bottom: 30px;
   /* opacity: 0.7; */
   margin-left: 10px;
   animation: logo 5s linear infinite;

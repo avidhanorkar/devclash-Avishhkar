@@ -10,10 +10,9 @@ const Aboutevent = () => {
           <h1 className="eventHeading">About Event</h1>
           <p className="eventPara">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ututututututututututututututututututututut
-            labore et dolore magna aliqua.Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-            labore et dolore magna aliqua.
+            eiusmod tempor incididunt labore et dolore magna aliqua.Lorem ipsum
+            dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua.
           </p>
         </div>
         <div className="eventSection withLocation">
