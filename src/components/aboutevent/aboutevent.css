@@ -159,7 +159,7 @@
   .eventContainer {
     display: flex;
     flex-direction: column;
-    margin: 0 auto 270px auto;
+    margin: 0 auto 0 auto;
   }
   .eventSection {
     width: 100%;
@@ -168,12 +168,12 @@
   }
   .aboutUs {
     flex-direction: column-reverse;
-    margin: 0 auto 0 auto;
+    margin: 350px auto 0 auto;
   }
   .aboutUsImage {
     width: 100%;
     height: 100%;
-    margin: 0 0 0 0;
+    margin: 0 0 80px 0;
   }
   .eventPara {
     padding: 12px;
