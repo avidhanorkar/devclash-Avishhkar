@@ -4,7 +4,7 @@
   src: url(../../../public/assets/fonts/vtks.ttf);
 }
 .faq-section {
-  max-width: 800px;
+  width: 35%;
   margin: 0 auto 20px auto;
   padding-top: 70px;
   padding: 20px;
@@ -13,16 +13,17 @@
 
 .domain-heading {
   font-family: "myFont"; /* Replace 'myFont' with your desired font-family */
-  font-size: 50px;
+  font-size: 70px !important;
   color: rgb(251, 112, 62);
   text-align: center;
+  margin: 40px 0;
 }
 
 .faq-list {
   /* width: 900px; */
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
   gap: 20px;
 }
 
@@ -38,7 +39,7 @@
 
 .question {
   font-weight: bold;
-  font-size: 25px;
+  font-size: 18px;
   color: white; /* Set text color to white */
   cursor: pointer;
   transition: color 0.3s ease;
@@ -53,6 +54,7 @@
   font-size: 20px;
   color: #cfc7c7;
   transition: color 0.3s ease;
+  padding-top: 12px;
 }
 
 .faq-item.open {
@@ -65,4 +67,13 @@
 
 .faq-item {
   margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .faq-section {
+    width: 85%;
+    margin: 0 0 20px 0;
+    /* padding-top: 70px; */
+    padding: 70px 15px 0 30px;
+  }
 }

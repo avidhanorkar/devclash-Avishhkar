@@ -27,16 +27,30 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 60%;
+  width: 70%;
   margin-top: 50px;
 }
 
 .logo {
-  max-height: 125px;
-  width: auto;
+  height: 130px;
+  width: 220px;
   object-fit: cover;
   margin: 0 90px 50px 0;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  /* padding: 1px; */
 }
+.rr {
+  margin-right: 0;
+}
+.hid {
+  visibility: hidden;
+}
+
+/* .solana {
+  width: 250px;
+  margin: 0 90px 50px 0;
+} */
 
 @media (max-width: 768px) {
   .wrap-sponsors {
@@ -50,12 +64,15 @@
   .logo {
     margin: 0 0 15px 0;
     object-fit: cover;
+    width: 230px;
+    height: 130px;
+    margin-bottom: 25px;
   }
   .domainHeading {
     font-size: 60px;
   }
-  .polygon,
-  .aptos {
-    width: 95%;
+
+  .hid {
+    display: none;
   }
 }

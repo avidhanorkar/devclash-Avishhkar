@@ -9,11 +9,12 @@ const Aboutevent = () => {
         <div className="eventSection">
           <h1 className="eventHeading">About Event</h1>
           <p className="eventPara">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ututututututututututututututututututututut
-            labore et dolore magna aliqua.Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-            labore et dolore magna aliqua.
+            Get ready for an exhilarating hackathon experience at DEVCLASH Our
+            event is a celebration of creativity, coding prowess, and teamwork.
+            Join us on 10FEB to 11FEB for an unforgettable journey. Explore the
+            world of technology, showcase your skills, and vie for incredible
+            prizes. Let's innovate, collaborate, and create something
+            extraordinary!
           </p>
         </div>
         <div className="eventSection withLocation">
@@ -35,7 +36,7 @@ const Aboutevent = () => {
           <h1 className="eventHeading">Event Timing</h1>
           <div className="timingCont">
             <CalendarMonthIcon className="icon" />
-            <p className="timingText">From 10 Jan to 11 Jan 2024</p>
+            <p className="timingText">From 10 Feb to 11 Feb 2024</p>
           </div>
           <div className="timingCont">
             <AccessTimeOutlinedIcon className="icon" />

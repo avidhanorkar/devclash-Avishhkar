@@ -189,7 +189,7 @@ const Navbar = () => {
                 Contact
               </a>
             </li>
-            <li>
+            <li className="svg">
               <NavLink className="navLinks menu-btn">
                 <svg
                   onClick={showSidebar}

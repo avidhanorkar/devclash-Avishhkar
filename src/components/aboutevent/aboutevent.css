@@ -34,9 +34,9 @@
 }
 
 .eventPara {
-  padding: 0;
+  padding: 0 12px;
   margin: 0;
-  font-size: 14px;
+  font-size: 16px;
   color: white;
 }
 
@@ -120,7 +120,7 @@
 .aboutContent {
   padding: 0 12px 0 12px;
   margin: 0;
-  font-size: 18px;
+  font-size: 16px;
 }
 .aboutUsImage {
   /* width: 60%; */
@@ -164,6 +164,7 @@
     width: 100%;
     margin-right: 0;
     margin-bottom: 20px;
+    height: max-content;
   }
   .aboutUs {
     flex-direction: column-reverse;
@@ -172,11 +173,10 @@
   .aboutUsImage {
     width: 100%;
     height: 100%;
-    margin: 0 0 0 0;
+    margin: 0 0 70px 0;
   }
   .eventPara {
     padding: 12px;
-    height: 150px;
     font-size: 16px;
   }
   .eventLocationImage {

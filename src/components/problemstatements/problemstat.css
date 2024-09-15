@@ -1,0 +1,83 @@
+/* FAQSection.css */
+@font-face {
+  font-family: myFont;
+  src: url(../../../public/assets/fonts/vtks.ttf);
+}
+.faq-section {
+  width: 35%;
+  margin: 0 auto 20px auto;
+  padding-top: 70px;
+  padding: 20px;
+  height: auto;
+  /* font-family: "myFont"; Replace 'myFont' with your desired font-family */
+}
+
+.domain-heading {
+  font-family: "myFont"; /* Replace 'myFont' with your desired font-family */
+  font-size: 70px !important;
+  color: rgb(251, 112, 62);
+  text-align: center;
+  margin: 40px 0;
+}
+
+.faq-list {
+  /* width: 900px; */
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  gap: 20px;
+  margin-top: 60px;
+}
+
+.faq-item {
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  transition:
+    background-color 0.3s ease,
+    transform 0.3s ease;
+  background-color: rgba(251, 112, 62, 0.2);
+}
+
+.question {
+  font-weight: bold;
+  font-size: 18px;
+  color: white; /* Set text color to white */
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.faq-item:hover {
+  /* background-color: #ccc; Lighter background on hover */
+  background-color: rgba(251, 112, 62, 0.5);
+}
+
+.project {
+  font-size: 20px;
+  color: #cfc7c7;
+  transition: color 0.3s ease;
+  padding-top: 12px;
+  cursor: pointer;
+}
+
+.faq-item.open {
+  background-color: rgba(251, 112, 62, 0.5);
+}
+
+.faq-item.open:hover {
+  background-color: rgba(251, 112, 62, 0.5);
+}
+
+.faq-item {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .faq-section {
+    width: 85%;
+    margin: 0 0 20px 0;
+    /* padding-top: 70px; */
+    padding: 30px 15px 0 30px;
+    padding-top: 0px;
+  }
+}

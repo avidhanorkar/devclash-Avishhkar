@@ -14,9 +14,10 @@
 
 .prizes-title {
   text-align: center;
-  font-size: 80px;
+  font-size: 70px !important;
   color: rgb(251, 112, 62);
   font-family: myFont;
+  margin: 40px 0;
 }
 
 .prizes-container {
@@ -49,8 +50,10 @@
 .prizes-amount {
   /* font-size: 20px; */
   color: rgb(251, 112, 62);
-  font-family: myFont;
+  /* font-family: myFont; */
   padding: 10px 0 0 0;
+  text-overflow: unset;
+  text-align: center;
   margin: 0;
   /* border-top: 2px solid rgb(251, 112, 62); */
 }
@@ -63,6 +66,7 @@
     font-size: 40px;
   }
   .prizes-card {
-    margin-bottom: 15px;
+    margin: 0 10px 15px 10px;
+    width: 80%;
   }
 }

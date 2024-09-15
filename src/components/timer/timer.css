@@ -6,8 +6,10 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
+  /* padding-top: 70px; */
   margin-bottom: 20px;
+  margin-top: 70px;
 }
 
 .headingCont {
@@ -16,7 +18,45 @@
   align-items: center;
   width: 70%;
   margin-bottom: 5%;
-} /*
+}
+.startingSlogan {
+  width: 60%;
+  font-family: myFont;
+  color: rgb(207, 193, 189);
+  font-size: 24px;
+  margin: 50px 15px 40px 15px;
+  text-align: center;
+  animation: zoomm 4s;
+}
+.buttonCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.registerButton1 {
+  font-family: "Oswald", sans-serif;
+  font-family: "Press Start 2P", system-ui;
+  border: none;
+  font-weight: bold;
+  font-size: 15px;
+  color: black;
+  background-color: rgb(251, 112, 62);
+  border-radius: 20px; /* Adjust the border-radius to your preference */
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  box-shadow: 1px 1px 5px 1px rgb(251, 112, 62);
+  animation: zoomm 4s;
+}
+
+.registerContainer1 {
+  margin-top: 45px;
+  width: 260px;
+  height: 50px;
+}
+
+/*
 @keyframes myfirst {
   0% {
     top: -40px;
@@ -287,7 +327,9 @@
     typing 3.5s steps(40, end),
     blink-caret 0.75s step-end infinite;*/
 }
-
+partii:hover {
+  cursor: pointer;
+}
 .timerCont {
   width: 120px;
   height: 100px;
@@ -321,7 +363,8 @@
   width: 312px;
 }
 
-.registerButton {
+.b1,
+.b2 {
   font-family: "Oswald", sans-serif;
   font-family: "Press Start 2P", system-ui;
   border: none;
@@ -331,8 +374,8 @@
   background-color: rgb(251, 112, 62);
   border-radius: 20px; /* Adjust the border-radius to your preference */
   padding: 10px;
-  width: 100%;
-  height: 100%;
+  /* width: 100%;
+  height: 100%; */
   box-shadow: 1px 1px 5px 1px rgb(251, 112, 62);
   animation: zoomm 4s;
 }
@@ -343,7 +386,12 @@
   height: 50px;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
+  @media (max-width: 410px) {
+    .slogan {
+      font-size: 24px;
+    }
+  }
   .wrap-timer {
     min-width: 100%;
     align-items: center;
@@ -358,13 +406,17 @@
   }
   .slogan {
     text-align: center;
-    margin: 0 0 10px 0;
-    font-size: 12px;
-    max-width: 90%;
+    margin: 0 0 30px 0;
+
+    font-size: 24px;
+    width: 90%;
+    overflow-wrap: break-word;
+    white-space: normal;
     position: absolute;
     top: 250px;
     z-index: -1;
   }
+
   .timerContainer {
     position: absolute;
     top: 300px;
@@ -372,10 +424,75 @@
     gap: 10px;
     max-width: 90%;
     z-index: -1;
+    margin-top: 30px;
   }
   .registerContainer {
     position: absolute;
     top: 500px;
     z-index: -1;
+    margin-top: 80px;
+  }
+} */
+
+.b1 {
+  margin: 20px 0;
+}
+.b2 {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .startingSlogan {
+    width: 70%;
+    font-family: myFont;
+    color: rgb(207, 193, 189);
+    font-size: 24px;
+    margin: 20px 15px 20px 15px;
+    position: absolute;
+    top: 200px;
+  }
+  .slogan {
+    font-size: 24px;
+  }
+
+  .wrap-timer {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    padding-top: 70px;
+    gap: 50px;
+    /* margin-bottom: 20px; */
+  }
+
+  .eventlogo {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+  }
+
+  .slogan {
+    text-align: center;
+    margin: 0 0 30px 0;
+    font-size: 24px;
+    width: 90%;
+    overflow-wrap: break-word;
+    white-space: normal;
+    position: absolute;
+    top: 250px;
+  }
+
+  .timerContainer {
+    position: absolute;
+    top: 300px;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 90%;
+    margin-top: 30px;
+  }
+
+  .registerContainer {
+    position: absolute;
+    top: 500px;
+    margin-top: 80px;
   }
 }

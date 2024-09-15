@@ -14,9 +14,10 @@
 
 .eventteam-title {
   text-align: center;
-  font-size: 80px;
+  font-size: 70px !important;
   color: rgb(251, 112, 62);
   font-family: myFont;
+  margin: 40px 0;
 }
 
 .eventteam-container {
@@ -51,9 +52,9 @@
 }
 .eventteam-img {
   width: 100%;
-  height: 200px; /* Maintain the desired height */
+  height: 250px; /* Maintain the desired height */
+  border-radius: 11px;
   object-fit: cover;
-  border: 10px;
   /* border-top-right-radius: 10px; */
 }
 .eventteam-name {
@@ -97,7 +98,7 @@
     margin-bottom: 20px;
   }
   .eventteam-title {
-    font-size: 60px;
+    font-size: 70px !important;
   }
   .eventteam-card {
     margin-right: 0px;
